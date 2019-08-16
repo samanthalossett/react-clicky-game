@@ -5,15 +5,52 @@
 }
 
 body{
- font-family: 'Oswald', sans-serif;
+
+ font-family: 'Libre Baskerville', serif;
  line-height: 1.4;
-}
-a{
-  color: red;
-  text-decoration: none;
+ /* background-color: rgb(124, 116, 116); */
+ background-color: rgb(180, 170, 170);
+ /* background-image: url("https://image.shutterstock.com/z/stock-vector-vector-floral-d-seamless-pattern-background-for-christmas-and-invitation-cards-decoration-233350501.jpg"); */
 }
 
+
 .itemImage{
-  max-width: 200px;
-  max-height: 200px;
+  position: relative;
+    float: left;
+    width:  200px;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+  border-style: inset;
+  border-color: rgb(2, 50, 54);
+  border-width: 8px;
+ border-radius: 10px; 
+margin: 8px 8px 8px 8px;
+box-shadow: 10px;
+
+}
+
+.navbar{
+  text-align: center;
+  z-index: 99;
+  width: 100%;
+  position: fixed;
+  box-shadow: 90px;
+  /* border-style: groove; */
+  /* border-style: inset;
+  border-color: rgb(2, 50, 54);
+  border-width: 7px; */
+ border-radius: 10px;  
+ background-color: rgb(2, 50, 54);
+ 
+ color: rgb(231, 224, 224);
+/* margin: 20px 20px 20px 20px; */
+padding: 20px 20px 20px 20px;
+}
+
+.header{
+  margin: 110px 40px 30px 40px;
+  text-align: center;
+  color: rgb(97, 93, 93);
 }
